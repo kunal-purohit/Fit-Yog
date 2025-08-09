@@ -1,54 +1,52 @@
-🧘‍♀️ Fit‑Yog: Your Ultimate Wellness Platform 💪
-Welcome to Fit‑Yog, a modern full-stack web application for health enthusiasts and admins alike! Whether you're here to explore yoga and fitness classes, subscribe to flexible packages, or manage bookings as an admin, this platform brings simplicity, style, and function together.
+# 🧘‍♀️ Fit-Yog: Your Ultimate Wellness Platform
 
-🔥 Live Preview
-👉 Demo Coming Soon...
+A modern MERN (MongoDB, Express, React, Node.js) application designed for yoga and fitness enthusiasts as well as administrators. The platform allows users to explore classes, subscribe to packages, watch embedded fitness videos, and manage bookings. Administrators can manage classes, media, and user feedback with secure role-based access.
 
-🛠️ Tech Stack
+---
 
-Frontend:
-React, Framer Motion
+## 🔥 Live Demo
+Coming Soon...
 
-Backend:
-Node.js, Express
+---
 
-Database:
-MongoDB + Mongoose
+## 💻 Tech Stack
 
-Auth:
-Session-based (express-session)
+**Frontend:**
+- ⚛️ React
+- 🎞 Framer Motion (animations)
 
-🎯 Key Features
-👤 User Experience
-🔐 Secure Sign Up / Log In
+**Backend:**
+- 🟢 Node.js
+- ⚙ Express.js
 
-📚 View available classes with instructor & schedule info
+**Database:**
+- 🍃 MongoDB with Mongoose
 
-🧾 Choose from curated packages (Basic, Advanced, Premium)
+**Authentication:**
+- 🔑 Session-based authentication using `express-session`
 
-🧘 See included classes per package in real-time
+---
 
-📆 Book packages with:
+## 🎯 Features
 
-✅ Live seat tracking
+### 👤 User Experience
+- 🔐 Secure sign up and log in with session authentication
+- 📚 Browse available classes with instructor and schedule details
+- 🧾 Choose from curated packages (Basic, Advanced, Premium)
+- 📆 View included classes per package in real-time
+- 🛒 Book packages with live seat tracking and automatic discounts:
+  - 💲 20% off for bookings over 20 seats
+  - 💲 50% off for bookings over 50 seats
+- 🧾 Receive booking receipt with summary and contact info
+- 🎬 Watch embedded YouTube videos (Yoga, Fitness)
+- 💬 Read and write reviews for classes
 
-💰 Auto discounts: 20% (>20 seats), 50% (>50 seats)
+### 🧑‍💼 Admin Dashboard
+- 🧭 Sidebar navigation for quick access
+- 📌 View and manage all bookings
+- ➕ Add new classes with instructor and schedule information
+- 📹 Add or delete YouTube videos
+- ✂️ View or delete user reviews
+- 🚫 Role-based session authentication to restrict access
 
-🧾 Booking receipt with summary & contact info
-
-🎬 Browse embedded YouTube videos (Yoga, Fitness)
-
-💬 Read & write reviews
-
-🧑‍💼 Admin Dashboard
-🧩 Sidebar for easy navigation
-
-📌 View & manage bookings
-
-➕ Add new classes
-
-📹 Add/delete videos
-
-✂️ View/delete user reviews
-
-🚫 Only accessible via role-based session auth
+---
